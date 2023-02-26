@@ -20,6 +20,8 @@ function randomCustomerNumber(min, max){
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+
+
 let seattleCount = {
   name: 'Seattle',
   customerNumber: 0,
@@ -29,6 +31,11 @@ let seattleCount = {
     for(let i = 0; i < 14; i++){
       this.cookieNumber = Math.round(randomCustomerNumber(23,65) * 6.3);
       cookiesPerHourSeattle.push(this.cookieNumber);
+    }
+  },
+  calculateTotal: function(){
+    for(let j = 0; j < cookiesPerHourSeattle.length, j++;){
+      this.total += this.cookiesPerHourSeattle[j];
     }
   },
   render: function(){
@@ -47,9 +54,12 @@ let seattleCount = {
     articleElem.appendChild(ulElem);
     for(let i = 0; i < this.hours.length; i++){
       let liElem = document.createElement('li');
-      liElem.textContent =  `${this.hours[i]}: ${cookiesPerHourSeattle[i]} cookies `;
+      liElem.textContent = `${this.hours[i]}: ${cookiesPerHourSeattle[i]} cookies `;
       ulElem.appendChild(liElem);
     }
+    let liElem2 = document.createElement('li');
+    ulElem.appendChild(liElem2);
+    liElem2.textContent = `Total: ${this.total}`;
   }
 };
 let tokyoCount = {
