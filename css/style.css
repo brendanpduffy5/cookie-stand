@@ -38,6 +38,28 @@ html {
     border:3px solid rgb(237, 107, 7);
   }
   
+  legend {
+    border-radius: 25px;
+    background-color: darkgray;
+    color: black;
+    padding: 10px 10px;
+  }
+
+  fieldset {
+    border-radius: 25px;
+    background-color: #52bfee;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+  }
+
+  button {
+    border-radius: 25px;
+    background-color: darkgray;
+    color: black;
+    padding: 10px 10px;
+  }
+  
   /* main ul {
     display: flex;
     justify-content: space-between;
@@ -81,11 +103,11 @@ html {
     display: flex;
     margin-top: 25px;
     /* background-color: #0e38d6; */
-    width: 100%;
-  }
+    /* width: 100%; */
+  /* } */
   
   footer img {
     max-width: 960px;
     margin: 0 auto;
     padding: 10px 0;
-  }  */
+  } 
