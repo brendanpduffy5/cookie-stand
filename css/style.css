@@ -1,32 +1,36 @@
 html {
-    font-family: Arial, "Courier New", Courier, monospace ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
   }
   
-  header {
+header {
+    font-family: 'Yellowtail', cursive;
+    font-style: italic;
     background-color: #52bfee;
     font-size:10ch
-  }
-/*   
-  nav {
-    max-width: 960px;
-    margin: auto;
-  }
   
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0;
-  } */
-  
+  }
+
+body{
+  background-color: #52bfee;
+}
+
   main {
     max-width: 960px;
     margin: auto;
     margin-top: 30px;
+    background-color: #52bfee;
   }
 
   h2 {
     font-size: 30px;
     padding-bottom: 15px;
+  }
+
+  #div1 {
+    background-color: gray;
+    color:azure;
+    font-family:Arial, Helvetica, sans-serif
+
   }
 
   h3 {
@@ -47,10 +51,11 @@ html {
 
   fieldset {
     border-radius: 25px;
-    background-color: #52bfee;
+    background-color: yellow;
     padding: 20px;
     width: 500px;
     height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   button {
@@ -59,55 +64,30 @@ html {
     color: black;
     padding: 10px 10px;
   }
-  
-  /* main ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
-  
-  } */
-  
-  /* section {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  section img {
-    width: 500px;
-  } */
-  
-  /* article {
-    padding: 0 15px;
-  } */
-  
 
-  
-  /* p {
-    height: 480px;
-    overflow-y: scroll;
-    scrollbar-color: black #DDD;
-    scrollbar-width: thick;
-    font-size: 16px;
-    line-height: 1.5;
-  } */
-  
-  /* button {
-    margin-top: 20px;
-    padding: 10px 35px;
-    background-color: #0e38d6;
-    color: white;
-    font-size: 18px;
-  } */
-
-  /* footer {
-    display: flex;
-    margin-top: 25px;
-    /* background-color: #0e38d6; */
-    /* width: 100%; */
-  /* } */
-  
   footer img {
     max-width: 960px;
     margin: 0 auto;
     padding: 10px 0;
   } 
+   
+  .review-box{
+    font-family: 'Kalam', cursive;
+    font-size: larger;
+    color:blue;
+    background: goldenrod
+
+  }
+
+  #Merch-box{
+    font-family: 'Permanent Marker', cursive;
+    font-size: larger;
+    color:green;
+    background: yellow
+  }
+
+  #boss {
+    font-family: 'Kalam', cursive;
+    font-size: larger;
+    color:blue;
+  }
